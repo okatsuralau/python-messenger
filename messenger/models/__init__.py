@@ -1,9 +1,9 @@
-from attachment import Attachment
+from .attachment import Attachment
 
-from button import CallButton, PostbackButton, ShareButton, UrlButton
+from .button import CallButton, PostbackButton, ShareButton, UrlButton
 
-from quick_replies import QuickLocationReply, QuickTextAndImageReply, QuickTextReply
+from .quick_replies import QuickLocationReply, QuickTextAndImageReply, QuickTextReply
 
-from templates import ButtonTemplate, GenericTemplate, TemplateElement
+from .templates import ButtonTemplate, GenericTemplate, TemplateElement
 
-from bot import Bot
+from .bot import Bot
